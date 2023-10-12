@@ -26,8 +26,8 @@ export default function App() {
     setFilteredContacts((contact) => contact.filter((item) => item.id !== id));
   }
 
-  function onInputHandler(e) {
-    const searchTerm = e.toLowerCase();
+  function onInputHandler(evt) {
+    const searchTerm = evt.toLowerCase();
     setSearchTerm(searchTerm);
 
     const filtered = contacts.filter((item) =>

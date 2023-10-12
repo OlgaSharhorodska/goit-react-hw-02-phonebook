@@ -24,7 +24,7 @@ export default function ContactForm({ onFormSubmit }) {
       <input
         type="text"
         name="name"
-        placeholder="John Doe"
+        placeholder="Name Surname"
         value={contact}
         onChange={evt => setContact(evt.target.value)}
         required
@@ -33,7 +33,7 @@ export default function ContactForm({ onFormSubmit }) {
       <input
         type="text"
         name="number"
-        placeholder="123 45 6789"
+        placeholder="+380 964 56 89"
         value={phoneNumber}
         onChange={evt =>
           setPhoneNumber(

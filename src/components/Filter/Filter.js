@@ -5,7 +5,7 @@ export default function Filter({ onInputHandler }) {
       <input
         type="text"
         name="search"
-        placeholder="John Doe"
+        placeholder="Name Surname"
         onChange={evt => {
           onInputHandler(evt.target.value);
         }}
